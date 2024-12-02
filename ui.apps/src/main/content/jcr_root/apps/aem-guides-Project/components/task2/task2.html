@@ -1,0 +1,18 @@
+<div data-sly-use.task2="com.Project.core.models.Task2"></div>
+<div>
+<h2>Properties</h2>
+<p>Text: ${task2.textfield}</p>
+<h3>Multifield Entries</h3>
+<div data-sly-list.entry="${task2.multifield}">
+    <p>Path: ${entry.pathfield}</p>
+    <p>Additional Text: ${entry.additionaltext}</p>
+    <p>Checkbox: ${entry.checkbox ? 'Checked' : 'Unchecked'}</p>
+    <p>Option Selected: ${entry.options}</p>
+    <div data-sly-list.nested="${entry.nestedmultifield}">
+        <p>Rich Text${nested.text  @ context='html'}
+    </div>
+
+</div>
+</div>
+
+

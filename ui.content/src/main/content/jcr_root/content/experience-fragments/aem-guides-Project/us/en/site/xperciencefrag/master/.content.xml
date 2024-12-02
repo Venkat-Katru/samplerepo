@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-11-07T10:08:26.574+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2024-11-21T12:49:39.700+05:30"
+        cq:lastReplicatedBy="welcome"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[experience-fragments:variation/web]"
+        cq:template="/conf/aem-guides-Project/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="xpercienceFrag"
+        jcr:uuid="39a47b41-509d-4813-ac4d-815f33657a62"
+        sling:resourceType="aem-guides-Project/components/xfpage">
+        <root
+            cq:lastReplicated="{Date}2024-11-21T12:49:39.768+05:30"
+            cq:lastReplicatedBy="welcome"
+            cq:lastReplicationAction="Activate"
+            jcr:mixinTypes="[cq:ReplicationStatus]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="aem-guides-Project/components/container"
+            layout="responsiveGrid">
+            <text
+                cq:lastReplicated="{Date}2024-11-21T12:49:39.828+05:30"
+                cq:lastReplicatedBy="welcome"
+                cq:lastReplicationAction="Activate"
+                jcr:created="{Date}2024-11-06T12:01:35.095+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-11-06T12:03:32.795+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aem-guides-Project/components/text"
+                text="&lt;p>India has given to the world many a great cricketer but perhaps none as ambitious as Virat Kohli. To meet his ambition, Kohli employed the technical assiduousness of Sachin Tendulkar and fitness that was in the league of top athletes in the world, not just cricketers. As a result, Kohli became the most consistent all-format accumulator of his time, making jaw-dropping chases look easy, and finding, in his own words, the safest possible way to score runs. Plenty of them.&lt;/p>&#xd;&#xa;"
+                textIsRich="true"/>
+            <image
+                cq:lastReplicated="{Date}2024-11-21T12:49:39.910+05:30"
+                cq:lastReplicatedBy="welcome"
+                cq:lastReplicationAction="Activate"
+                jcr:created="{Date}2024-11-07T10:08:14.903+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-11-07T10:08:26.207+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[cq:ReplicationStatus]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aem-guides-Project/components/image"
+                displayPopupTitle="true"
+                fileName="prem passport size pic.jpg"
+                isDecorative="false">
+                <file/>
+            </image>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,13 @@
+<div data-sly-use.task1="com.Project.core.models.Task1"></div>
+<div>
+    <h2>task1</h2>
+    <p>Text: ${task1.textfield}</p>
+    
+    <p>Checkbox: ${task1.checkbox ? 'Checked' : 'Unchecked'}</p>
+    <p>Country: ${task1.countries}</p>
+    
+    <div>
+        <p>File Upload:</p>
+        <img src="${task1.fileReference @ context='uri'}" alt="Uploaded Image" />
+    </div>
+</div>

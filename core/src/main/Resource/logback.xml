@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Create custom loggers -->
+    <logger name="com.Project.core.schedulers.PageExpiryScheduler" level="INFO">
+        <appender-ref ref="SlingAppender"/>
+    </logger>
+
+    <!-- Define the SlingAppender -->
+    <appender name="SlingAppender" class="org.apache.sling.api.servlets.SlingLogAppender">
+        <logLevel>INFO</logLevel>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="SlingAppender"/>
+    </root>
+</configuration>

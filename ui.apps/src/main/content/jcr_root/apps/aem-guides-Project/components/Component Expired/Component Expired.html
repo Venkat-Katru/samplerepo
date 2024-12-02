@@ -1,0 +1,20 @@
+
+<div class="custom-component">
+    <div data-sly-use.Model="com.Project.core.models.NewComponentModel">
+        <!-- Show content if date is today or future -->
+        <div data-sly-test="${Model.message == 'Valid'}">
+            <p>Name: ${properties.textField}</p>
+            <p>Path: ${properties.pathField}</p>
+        </div>
+        
+        <!-- Show expired message if date is in the past -->
+        <div data-sly-test="${Model.message == 'Component Expired'}">
+            <p>Component Expired</p>
+        </div>
+        
+        <!-- Show error message for invalid date -->
+        <div data-sly-test="${Model.message == 'Invalid Date'}">
+            <p>Invalid Date Selected</p>
+        </div>
+    </div>
+</div>

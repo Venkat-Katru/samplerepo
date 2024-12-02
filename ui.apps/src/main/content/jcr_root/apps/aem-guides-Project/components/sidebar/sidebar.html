@@ -1,0 +1,27 @@
+<div data-sly-use.Task3="com.Project.core.models.Sidebar"></div>
+
+<h3>Welcome to Side Bar</h3>
+<div>Logo Path: ${Task3.logoPath}</div>
+<div>Logo Mobile Image: ${Task3.logoMobileImage}</div>
+<div>Logo Link: ${Task3.logoLink}</div>
+<div>Enable Switch: ${Task3.enableSwitch}</div>
+
+<!-- Header Links Multifield -->
+<sly data-sly-list.headerLinks="${Task3.multifield}">
+    <div>Header Link Name: ${headerLinks.name}</div>
+    <div>Header Link Image: ${headerLinks.image}</div>
+</sly>
+
+<!-- Sidebar Navigation Multifield -->
+<sly data-sly-list.sidebarNavigation="${Task3.multifield2}">
+    <div>Desktop Icon: ${sidebarNavigation.desktopicon}</div>
+    <div>Mobile Icon: ${sidebarNavigation.mobileicon}</div>
+
+    <!-- Nested Multifield for Navigation URL -->
+    <sly data-sly-list.navigationUrls="${sidebarNavigation.nestedmultifield}">
+        <div>Navigation URL: ${navigationUrls.navigationurl}</div>
+    </sly>
+</sly>
+
+<!-- Region Dropdown -->
+<div>Selected Country: ${Task3.countries}</div> 

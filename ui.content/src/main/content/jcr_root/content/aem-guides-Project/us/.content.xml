@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastReplicated="{Date}2024-11-21T13:06:48.967+05:30"
+        cq:lastReplicatedBy="welcome"
+        cq:lastReplicationAction="Activate"
+        cq:redirectTarget="/content/aem-guides-Project/us/en"
+        cq:template="/conf/aem-guides-Project/settings/wcm/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="us"
+        jcr:uuid="2715a8ee-b25c-48c3-b55c-0b380e837668"
+        sling:resourceType="foundation/components/redirect"/>
+    <en/>
+</jcr:root>
